@@ -1,0 +1,17 @@
+SMAP
+confirmacionVuelo_jsp.java
+JSP
+*S JSP
+*F
++ 0 confirmacionVuelo.jsp
+vista/confirmacionVuelo.jsp
+*L
+5,9:47
+13,108:56
+121:164,3
+122:167
+123:168,3
+124:171
+125:172,3
+126,27:175
+*E

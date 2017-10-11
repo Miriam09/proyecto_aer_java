@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "tu fuente";
+    src: url(../fonts/Triforce.ttf) format("truetype");
+}
+
+.letra-logo { font-family: "tu fuente", sans-serif !important;}
+.titulo-pasajeros{
+    margin-left: 25px; 
+}
+.panel-heading .pasajeros{
+    height:30px !important; 
+}
+span{
+    display: inline;
+}
+.listaReserva{
+    background: #D5E1DD !important;
+}
+.tablaServicios{
+    width: 100px !important;
+}
+.primerFormulario{
+    padding: 65px 50px 0 30px;
+
+}
+.formularioUser{
+    margin: 10px 8px 0 0;
+}
+.error{
+    background: red !important;
+}
+.noMargin{
+    margin-bottom: 0 !important;
+    padding: 3px !important;
+    
+}
+.inputUser{
+    background: #556667;
+    color: white;
+}
+.botonUser{
+    height: 30px;
+    padding-top: -5px;
+}
+.logo{
+    margin-top: -1em;
+}
+.ocultado{
+    display: none;
+}
+
+.asientos {
+
+    background: url("../images/DistribucionAsientosAviones.png");
+}
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none !important;
+    -moz-appearance:textfield !important;
+    margin: 0;}
+.margin-none{
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+}
+.padding-none{
+    padding: 1px !important;
+    
+}
+.borde{
+    border:1px solid #D5E1DD !important;
+}
+
+    .tabla-embarque{
+    width: 150px !important;
+}
+table, .listaTabla{
+    cursor: pointer !important;
+}
+.botonVolar{
+    background: url(../images/botonAvion.png) /* Url de la imagen */ no-repeat center center, #62BC0F /* Color del botón */;
+background-size: 110%; /* Tamaño de la imagen */
+  height: 70px;  /* Alto del botón */
+  width: 70px;  /* Ancho del botón */
+  display: table;
+  border-radius: 100%;
+  cursor: pointer;
+    box-shadow:
+/* Sombras externa */
+inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+/* Sombra interna */
+0 5px 20px rgba(0,0,0,.1);
+}
+div.clock div.date {
+    font-size: 1em !important;
+}
+
+div.clock div.time {
+    font-size: 1.5em !important;
+}
+/* Al presionar */
+.boton:active {
+  box-shadow: inset 0 5px 30px rgba(0,0,0,.2); /* Sombra interior */
+  background-size: 55%; /* Cambiamos el tamaño de la imagen */
+/*    border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 13px ridge #00c4de;*/
+}
+/*.navbar .active{
+    background: #006699;
+}
+.navbar{
+    background: #5bc0de;
+    color: white;
+    border-color: #46b8da;
+}
+.dropdown-menu{
+    background: #006699;
+    color:white;
+}
+.navbar>li> a{
+ 
+    color: white;
+}
+.dropdown-menu >li>a{
+    color:white;
+}*/
+/*.datepicker{
+    width: 130px;
+    
+}*/
